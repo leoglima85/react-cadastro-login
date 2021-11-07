@@ -9,4 +9,5 @@ export const AreaFooter = styled.div`
     bottom : 0;
     position: fixed;
     width: 100%;
+    
 `;
