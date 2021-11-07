@@ -1,8 +1,22 @@
 import React from "react";
+import { AreaHeader } from './styled';
 
 function Header (){
     return (
-        <p>Topo do site</p>
+        <AreaHeader>
+            <div className="container">
+                <div className="logo">
+                    <img src="./logo192.png"></img>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li>Configurações</li>
+                        <li>Sair</li>
+                    </ul>
+                </nav>
+            </div>
+        </AreaHeader>
     );
 }
 
